@@ -16,3 +16,7 @@ exports.pop = function () {
 exports.peek = function () {
     return _.last(stack);
 }
+exports.clear = function () {
+    // Tömmer stacken
+    stack = [];
+  };
